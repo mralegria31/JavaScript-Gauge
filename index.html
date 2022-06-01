@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVASCRIPT-GAUGE</title>
+    <link rel="stylesheet" href="assets/style.css"/>
+</head>
+
+
+
+<body>
+    <!--Score and timer section-->
+    <div id="head">
+        <div id="showscores">High Scores</div>
+        <div class="time-container"><span id="timer"></span></div>
+    </div>
+
+    <!--start page section-->
+    <div class="start page" id="start-screen">
+        <h1>
+            JavaScript-Gauge
+        </h1>
+        <p>
+            Let's see how much you know ! Here are some coding related questions. Try to answer them as quickly as you can. Note that incorrect answers will result in a 10 second score/time penalty.
+            Don't worry,you can try as many times as you want!
+        </p>
+
+        <!--start button section-->
+        <button onclick="startQuiz()">
+            Click Here!
+        </button>
+    </div>
+
+    <!--questions section-->
+    <div class="container page" id="question-wrapper">
+        <h1 id="question-text">
+        </h1>
+        <ul id="question-choices">
+
+        </ul>
+        <h1 id="prev-question-answer">
+        </h1>
+    </div>
+
+    <div id="endQuiz">
+        <div id="finalScore"></div>
+        <input type="text" size="40" placeholder="Enter your score" name="intials" id="initials" />
+        <button id="submitScore">Submit Score</button>
+    </div>
+
+
+    <script src="script.js"></script>  
+</body>
+</html>
