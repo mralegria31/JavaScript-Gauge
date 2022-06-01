@@ -8,6 +8,6 @@ Quiz to test your knowledge on Javascript.
 * javascript
 
 ## Screenshot 
-<img src="assets/images/Screenshot 2022-06-01 at 16.27.43.png"
+![alt text](assets/images/sitescreenshot.png)
 
 ## Created by Francisco Alegria
